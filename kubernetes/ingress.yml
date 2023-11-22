@@ -5,9 +5,9 @@ metadata:
 spec:
   tls:
     - hosts:
-        - <your_firstname>-<your_lastname>-api.lab.sspcloud.fr
+        - magicapi-api.lab.sspcloud.fr
   rules:
-    - host: <your_firstname>-<your_lastname>-api.lab.sspcloud.fr
+    - host: magicapi-api.lab.sspcloud.fr
       http:
         paths:
           - path: /
